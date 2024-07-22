@@ -5,6 +5,7 @@ import Navfun from "./components/Navfun";
 import Otpfunctionality from "./components/Otpfunctionality";
 import Cashingtech from "./components/Cashingtech";
 import { Routes, Route } from "react-router-dom";
+import Animation from "./components/Animation";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/otpfunctionality" element={<Otpfunctionality />} />
         <Route path="/search" element={<Cashingtech />} />
+        <Route path="/animation" element={<Animation />} />
       </Routes>
     </div>
   );

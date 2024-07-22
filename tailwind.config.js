@@ -24,8 +24,16 @@ module.exports = {
       icon: "#f1f5f9",
       iconhover: "#334155",
       otp: "#1e3a8a",
+      bgcolor: "#0f172a",
+      white: "#f8fafc",
+      sky: "#38bdf8",
+      violet: "#6d28d9",
     },
-    extend: {},
+    extend: {
+      animation: {
+        "spin-slow": "spin 4s linear infinite",
+      },
+    },
   },
   plugins: [],
 };
